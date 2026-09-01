@@ -1,0 +1,34 @@
+# STM32CubeIDE / Eclipse metadata
+.metadata/
+.settings/
+.project
+.cproject
+.mxproject
+*.launch
+
+# Generated build directories and dependency files
+Debug/
+Release/
+build/
+*.d
+*.o
+*.su
+*.cyclo
+
+# Firmware outputs
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.lst
+*.size.stdout
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
